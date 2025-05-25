@@ -1,0 +1,42 @@
+.parent {
+  background-color: azure;
+  width: 100vw;
+  display: flex;
+  height:100vh;
+}
+.parent::-webkit-scrollbar {
+  display: none;
+}
+.child1 {
+  background-color: greenyellow;
+  width: 50vw;
+  height: 100vh;
+}
+
+.child2 {
+  background-color: rgb(113, 151, 56);
+  width: 50vw;
+  height: 95vh;
+}
+
+.slider {
+  width: 5px;
+  background: #444;
+  cursor: ew-resize;
+  z-index: 10;
+}
+
+.child2first{
+    background-color: #8e7575;
+    height:49vh;
+}
+.child2second{
+    background-color: #c58888;
+    height:49vh;
+}
+
+.vtslider{
+    height: 5px;
+    background-color: #fff;
+    cursor:ns-resize;
+}
